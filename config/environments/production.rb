@@ -153,6 +153,7 @@ Rails.application.configure do
     'X-Content-Type-Options' => 'nosniff',
     'X-XSS-Protection'       => '0',
     'Referrer-Policy'        => 'same-origin',
+    'X-Clacks-Overhead' => 'GNU Natalie Nguyen'
   }
 
   config.x.otp_secret = ENV.fetch('OTP_SECRET')
